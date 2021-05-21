@@ -1,0 +1,62 @@
+body{
+	background-image: url("background.jpg");
+	background-repeat: repeat-x;
+	background-color: #1E2538;
+	direction : rtl ;
+}
+@font-face {
+ font-family: myFirstFont;
+ src: url('BKoodakBold.afm'),
+      url('BKoodakBold.eot');
+	font-weight: normal;
+	font-style: normal;
+ }
+h1{
+	color:#E566FF;
+	font-size:27pt;
+	font-family: myFirstFont;
+}
+h2{
+	font-size:20pt;
+	color:#CCEEFF;
+}
+h3{
+	font-size:17pt;
+	color:#CCEEFF;
+}
+p{
+	font-size:13pt;
+	color:#FFD9B3;
+	font-family:myFirstFont;
+}
+.list{ 
+	font-size:13pt;
+	color:#FFD9B3;
+}
+.nazarat{
+	color:#F2FFB3;
+	font-size:10pt;
+}
+a:link {
+  color: #80FFAA;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
